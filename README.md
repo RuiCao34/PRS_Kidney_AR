@@ -1,4 +1,4 @@
-Unfortunately, due to the consent limitation, the phenotype and genotype data in these two cohorts are not publicly available. To reproduce the PRS result, run the R file sequetially:
+Unfortunately, due to the consent limitation, the phenotype and genotype data in these two cohorts are not publicly available. To reproduce the PRS result, run the R file sequentially:
 1. GWAS_dekaf_HLAmatching.R： parallel GWAS analysis on DeKAF cohort. Cox regression model: AR ~ recipient_age + recipient_gender + PRA_status + previous_tx_status + HLA_num_mismatch.
 2. writeplink_dekaf_HLAmatching.R: clump the GWAS results.
 3. PRS_dekaf_HLAmatching.R, PRS_gen03_HLAmatching.R: calculate whole-genome PRS scores in both DeKAF and GEN-03 cohorts.
